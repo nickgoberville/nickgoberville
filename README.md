@@ -1,6 +1,5 @@
 ### Welcome 👋
 
-I am a PhD Candidate from Western Michigan University. I am currently researching methods for improving automated vehicle perception in adverse weather conditions. I am also working on commercializing the technology solutions I have developed during my PhD to the automotive industry with my startup, Revision Autonomy.
+Thanks for checking out my profile. I work on automated vehicle research. Let me know if you're using any of my code or looking to chat!
 
-- 🔭 I’m currently working on my dissertation...
-- 📫 How to reach me: nicholas.a.goberville@wmich.edu
+- 📫 How to reach me: nickgoberville21@gmail.com
