@@ -51,7 +51,7 @@ Researcher and software engineer at **Argonne National Laboratory** specializing
 </a>
 </td>
 <td align="center">
-<img src="./research-areas.svg" alt="Research Areas"/>
+<img src="./research-topics.svg" alt="Research Areas"/>
 </td>
 </tr>
 </table>
