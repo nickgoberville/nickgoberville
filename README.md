@@ -2,84 +2,85 @@
 
 <!-- Typing Animation Header -->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Nick+Goberville%2C+Ph.D.;Autonomy+%26+AI+Software+Engineer)](https://nickgoberville.github.io)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=A9B1D6&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=80&lines=Nick+Goberville%2C+Ph.D.;Autonomy+%26+AI+Software+Engineer)](https://nickgoberville.github.io)
 
-**Specializing in real-time edge AI and agentic workflows for autonomous systems**
+_Specializing in real-time edge AI and agentic workflows for autonomous systems_
 
 ---
 
-<!-- Social Links -->
+<!-- Social Links - Minimal flat style -->
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nickgoberville.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nick-goberville-5814a9125)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=BGCbkEUAAAAJ)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nickgoberville21@gmail.com)
+<a href="https://nickgoberville.github.io"><img src="https://img.shields.io/badge/Portfolio-171717?style=flat&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/nick-goberville-5814a9125"><img src="https://img.shields.io/badge/LinkedIn-171717?style=flat&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
+<a href="https://scholar.google.com/citations?user=BGCbkEUAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-171717?style=flat&logo=google-scholar&logoColor=4285F4" alt="Google Scholar"/></a>
+<a href="mailto:nickgoberville21@gmail.com"><img src="https://img.shields.io/badge/Email-171717?style=flat&logo=gmail&logoColor=EA4335" alt="Email"/></a>
 
 </div>
 
 ---
 
-## 👋 About Me
+### About Me
 
-I'm a researcher and software engineer at **Argonne National Laboratory** working on automated vehicle research. My work spans edge-deployed AI systems, robust control systems for autonomous vehicles, and agentic AI workflows that push the boundaries of what's possible in real-time robotics.
+Researcher and software engineer at **Argonne National Laboratory** specializing in automated vehicle research. My work spans edge-deployed AI systems, robust control systems for autonomous vehicles, and agentic AI workflows for real-time robotics applications.
 
 ---
 
-## 🛠️ Tech Stack
+### Tech Stack
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-171717?style=flat&logo=python&logoColor=3776AB)
+![C++](https://img.shields.io/badge/C++-171717?style=flat&logo=cplusplus&logoColor=00599C)
+![PyTorch](https://img.shields.io/badge/PyTorch-171717?style=flat&logo=pytorch&logoColor=EE4C2C)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-171717?style=flat&logo=tensorflow&logoColor=FF6F00)
+![ROS2](https://img.shields.io/badge/ROS2-171717?style=flat&logo=ros&logoColor=22314E)
+![Docker](https://img.shields.io/badge/Docker-171717?style=flat&logo=docker&logoColor=2496ED)
+![CUDA](https://img.shields.io/badge/CUDA-171717?style=flat&logo=nvidia&logoColor=76B900)
+![Linux](https://img.shields.io/badge/Linux-171717?style=flat&logo=linux&logoColor=FCC624)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+### GitHub Activity
 
 <div align="center">
 
-<a href="https://github.com/nickgoberville">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nickgoberville&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Nick's GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nickgoberville&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
-</a>
-
-<br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=nickgoberville&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-nickgoberv.vercel.app/api?username=nickgoberville&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-nickgoberv.vercel.app/api?username=nickgoberville&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=nickgoberville&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-nickgoberv.vercel.app/api/top-langs/?username=nickgoberville&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-nickgoberv.vercel.app/api/top-langs/?username=nickgoberville&layout=compact&theme=default&hide_border=true&langs_count=6" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nickgoberville&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages"/>
+</picture>
 
 </div>
 
 ---
 
-## 📚 Research Impact
+### Research Impact
 
 <div align="center">
 
-<!-- Dynamic Google Scholar Stats - Updated weekly via GitHub Actions -->
 <a href="https://scholar.google.com/citations?user=BGCbkEUAAAAJ">
-  <img src="https://raw.githubusercontent.com/nickgoberville/nickgoberville/main/scholar-stats.svg" alt="Google Scholar Stats"/>
+  <img src="./scholar-stats.svg" alt="Google Scholar Stats"/>
 </a>
-
-_📈 Automatically updated weekly via GitHub Actions_
 
 </div>
 
 ---
 
-## 🐍 Contribution Graph
+### 🐍 Contributions
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nickgoberville/nickgoberville/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nickgoberville/nickgoberville/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/nickgoberville/nickgoberville/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/nickgoberville/nickgoberville/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
@@ -88,8 +89,6 @@ _📈 Automatically updated weekly via GitHub Actions_
 
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=nickgoberville&color=6366f1&style=flat-square&label=Profile+Views)](https://github.com/nickgoberville)
-
-**💡 Open to collaborations on autonomous systems, edge AI, and robotics research**
+[![Profile Views](https://komarev.com/ghpvc/?username=nickgoberville&color=6366f1&style=flat&label=Profile+Views)](https://github.com/nickgoberville)
 
 </div>
