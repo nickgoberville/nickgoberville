@@ -43,11 +43,18 @@ Researcher and software engineer at **Argonne National Laboratory** specializing
 ### Research Impact
 
 <div align="center">
-
+<table>
+<tr>
+<td align="center">
 <a href="https://scholar.google.com/citations?user=BGCbkEUAAAAJ">
   <img src="./scholar-stats.svg" alt="Google Scholar Stats"/>
 </a>
-
+</td>
+<td align="center">
+<img src="./research-areas.svg" alt="Research Areas"/>
+</td>
+</tr>
+</table>
 </div>
 
 ---
