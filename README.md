@@ -4,14 +4,12 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=3000&pause=1000&color=A9B1D6&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=80&lines=Nick+Goberville%2C+Ph.D.;Autonomy+%26+AI+Software+Engineer)](https://nickgoberville.github.io)
 
-_Specializing in real-time edge AI and agentic workflows for autonomous systems_
-
----
-
 <a href="https://nickgoberville.github.io"><img src="https://img.shields.io/badge/Portfolio-171717?style=flat&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/nick-goberville-5814a9125"><img src="https://img.shields.io/badge/LinkedIn-171717?style=flat&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
 <a href="https://scholar.google.com/citations?user=BGCbkEUAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-171717?style=flat&logo=google-scholar&logoColor=4285F4" alt="Google Scholar"/></a>
 <a href="mailto:nickgoberville21@gmail.com"><img src="https://img.shields.io/badge/Email-171717?style=flat&logo=gmail&logoColor=EA4335" alt="Email"/></a>
+
+_Specializing in real-time edge AI and agentic workflows for autonomous systems_
 
 </div>
 
@@ -26,6 +24,8 @@ Researcher and software engineer at **Argonne National Laboratory** specializing
 ### Tech Stack
 
 <div align="center">
+
+_Tech Stack:_
 
 ![Python](https://img.shields.io/badge/Python-171717?style=flat&logo=python&logoColor=3776AB)
 ![C++](https://img.shields.io/badge/C++-171717?style=flat&logo=cplusplus&logoColor=00599C)
@@ -43,18 +43,13 @@ Researcher and software engineer at **Argonne National Laboratory** specializing
 ### Research Impact
 
 <div align="center">
-<table>
-<tr>
-<td align="center">
+
 <a href="https://scholar.google.com/citations?user=BGCbkEUAAAAJ">
   <img src="./scholar-stats.svg" alt="Google Scholar Stats"/>
 </a>
-</td>
-<td align="center">
+&nbsp;&nbsp;
 <img src="./research-topics.svg" alt="Research Areas"/>
-</td>
-</tr>
-</table>
+
 </div>
 
 ---
