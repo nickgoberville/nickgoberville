@@ -108,9 +108,10 @@ def generate_bar_chart_svg(area_counts, max_items=7):
             f'  <rect x="{left_margin}" y="{y}" width="{bar_width}" height="{bar_height}" fill="{bar_color}" rx="3"/>'
         )
         
-        # Label
+        # Label (escape ampersands for valid XML)
+        area_escaped = area.replace('&', '&amp;')
         svg_parts.append(
-            f'  <text x="{left_margin - 6}" y="{y + bar_height/2 + 4}" text-anchor="end" fill="{text_color}" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10">{area}</text>'
+            f'  <text x="{left_margin - 6}" y="{y + bar_height/2 + 4}" text-anchor="end" fill="{text_color}" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10">{area_escaped}</text>'
         )
         
         # Count
