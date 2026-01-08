@@ -25,8 +25,6 @@ Researcher and software engineer at **Argonne National Laboratory** specializing
 
 <div align="center">
 
-_Tech Stack:_
-
 ![Python](https://img.shields.io/badge/Python-171717?style=flat&logo=python&logoColor=3776AB)
 ![C++](https://img.shields.io/badge/C++-171717?style=flat&logo=cplusplus&logoColor=00599C)
 ![PyTorch](https://img.shields.io/badge/PyTorch-171717?style=flat&logo=pytorch&logoColor=EE4C2C)
@@ -45,10 +43,8 @@ _Tech Stack:_
 <div align="center">
 
 <a href="https://scholar.google.com/citations?user=BGCbkEUAAAAJ">
-  <img src="./scholar-stats.svg" alt="Google Scholar Stats"/>
+  <img src="./research-impact.svg" alt="Research Impact"/>
 </a>
-&nbsp;&nbsp;
-<img src="./research-topics.svg" alt="Research Areas"/>
 
 </div>
 
