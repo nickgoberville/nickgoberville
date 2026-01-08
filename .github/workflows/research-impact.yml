@@ -1,0 +1,39 @@
+name: Update Research Impact
+
+on:
+  # Run weekly on Sundays at 1 AM UTC
+  schedule:
+    - cron: "0 1 * * 0"
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-research-impact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install scholarly
+
+      - name: Generate Research Impact SVG
+        env:
+          SCHOLAR_ID: BGCbkEUAAAAJ
+        run: python generate_research_impact.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add research-impact.svg
+          git diff --staged --quiet || git commit -m "Update research impact stats [skip ci]"
+          git push

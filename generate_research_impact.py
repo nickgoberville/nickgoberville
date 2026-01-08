@@ -1,10 +1,21 @@
 #!/usr/bin/env python3
 """
 Generate a unified Research Impact SVG combining bibliometrics and research areas
-with consistent, modern styling.
+with consistent, modern styling. Fetches live data from Google Scholar.
 """
 
+import os
 from collections import Counter
+
+try:
+    from scholarly import scholarly
+    SCHOLARLY_AVAILABLE = True
+except ImportError:
+    SCHOLARLY_AVAILABLE = False
+    print("Warning: scholarly not installed, using fallback data")
+
+# Google Scholar ID
+SCHOLAR_ID = os.environ.get('SCHOLAR_ID', 'BGCbkEUAAAAJ')
 
 # Research area keywords
 RESEARCH_KEYWORDS = {
@@ -18,7 +29,15 @@ RESEARCH_KEYWORDS = {
     "Simulation & Testing": ["simulation", "simulator", "dynamometer", "testing", "evaluation"],
 }
 
-PUBLICATIONS = [
+# Fallback data if scholarly fails
+FALLBACK_METRICS = {
+    "Citations": 197,
+    "h-index": 8,
+    "i10-index": 4,
+    "Publications": 23,
+}
+
+FALLBACK_PUBLICATIONS = [
     "Analysis of LiDAR and camera data in real-world weather conditions for autonomous vehicle operations",
     "Development of an energy efficient and cost effective autonomous vehicle research platform",
     "Tire track identification: A method for drivable region detection in conditions of snow-occluded lane lines",
@@ -36,23 +55,47 @@ PUBLICATIONS = [
     "Modular Dynamometer Testing Framework to Evaluate Energy Impacts of Longitudinal Automated Driving Systems",
     "Portable Track-Based Connected Intersection Testing System for Connected and Automated Vehicles",
     "Raw Lidar and Camera Data Synchronized with Precipitation and Present Weather Data",
-    "Session 6: Weather, Automated Vehicles, and Society",
     "Automated Vehicle Perception Sensor Evaluation in Real-World Weather Conditions",
     "Cost-Effective Enablement of Automated Driving Systems on Snow-Covered Roads",
-    "Autonomous Vehicle Camera Mount Application",
-    "3D Printing Robotic Arm on Linear Rails",
-    "Transportation Research Interdisciplinary Perspectives"
 ]
 
-# Bibliometrics data (from Google Scholar)
-METRICS = {
-    "Citations": 197,
-    "h-index": 8,
-    "i10-index": 4,
-    "Publications": 23,
-}
+
+def fetch_scholar_data(scholar_id):
+    """Fetch live data from Google Scholar."""
+    if not SCHOLARLY_AVAILABLE:
+        return FALLBACK_METRICS, FALLBACK_PUBLICATIONS
+    
+    try:
+        print(f"Fetching Google Scholar data for {scholar_id}...")
+        author = scholarly.search_author_id(scholar_id)
+        author = scholarly.fill(author, sections=['basics', 'publications'])
+        
+        # Extract metrics
+        metrics = {
+            "Citations": author.get('citedby', 0),
+            "h-index": author.get('hindex', 0),
+            "i10-index": author.get('i10index', 0),
+            "Publications": len(author.get('publications', [])),
+        }
+        
+        # Extract publication titles
+        publications = []
+        for pub in author.get('publications', []):
+            title = pub.get('bib', {}).get('title', '')
+            if title:
+                publications.append(title)
+        
+        print(f"Fetched: {metrics}")
+        return metrics, publications
+        
+    except Exception as e:
+        print(f"Error fetching Scholar data: {e}")
+        print("Using fallback data")
+        return FALLBACK_METRICS, FALLBACK_PUBLICATIONS
+
 
 def count_research_areas(publications, keywords_dict):
+    """Count mentions of research area keywords in publication titles."""
     area_counts = Counter()
     for title in publications:
         title_lower = title.lower()
@@ -62,6 +105,7 @@ def count_research_areas(publications, keywords_dict):
                     area_counts[area] += 1
                     break
     return area_counts
+
 
 def generate_unified_svg(metrics, area_counts, top_n=5):
     """Generate a unified, modern research impact card."""
@@ -144,13 +188,17 @@ def generate_unified_svg(metrics, area_counts, top_n=5):
 
 
 if __name__ == "__main__":
-    area_counts = count_research_areas(PUBLICATIONS, RESEARCH_KEYWORDS)
+    # Fetch live data from Google Scholar
+    metrics, publications = fetch_scholar_data(SCHOLAR_ID)
     
-    print("Generating unified research impact card...")
-    print(f"Metrics: {METRICS}")
+    # Count research areas from publication titles
+    area_counts = count_research_areas(publications, RESEARCH_KEYWORDS)
+    
+    print(f"Metrics: {metrics}")
     print(f"Top areas: {area_counts.most_common(5)}")
     
-    svg = generate_unified_svg(METRICS, area_counts)
+    # Generate SVG
+    svg = generate_unified_svg(metrics, area_counts)
     
     with open("research-impact.svg", "w") as f:
         f.write(svg)
