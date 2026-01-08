@@ -8,8 +8,6 @@ _Specializing in real-time edge AI and agentic workflows for autonomous systems_
 
 ---
 
-<!-- Social Links - Minimal flat style -->
-
 <a href="https://nickgoberville.github.io"><img src="https://img.shields.io/badge/Portfolio-171717?style=flat&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/nick-goberville-5814a9125"><img src="https://img.shields.io/badge/LinkedIn-171717?style=flat&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
 <a href="https://scholar.google.com/citations?user=BGCbkEUAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-171717?style=flat&logo=google-scholar&logoColor=4285F4" alt="Google Scholar"/></a>
@@ -37,25 +35,6 @@ Researcher and software engineer at **Argonne National Laboratory** specializing
 ![Docker](https://img.shields.io/badge/Docker-171717?style=flat&logo=docker&logoColor=2496ED)
 ![CUDA](https://img.shields.io/badge/CUDA-171717?style=flat&logo=nvidia&logoColor=76B900)
 ![Linux](https://img.shields.io/badge/Linux-171717?style=flat&logo=linux&logoColor=FCC624)
-
-</div>
-
----
-
-### GitHub Activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-nickgoberv.vercel.app/api?username=nickgoberville&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-nickgoberv.vercel.app/api?username=nickgoberville&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=nickgoberville&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-nickgoberv.vercel.app/api/top-langs/?username=nickgoberville&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-nickgoberv.vercel.app/api/top-langs/?username=nickgoberville&layout=compact&theme=default&hide_border=true&langs_count=6" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nickgoberville&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages"/>
-</picture>
 
 </div>
 
