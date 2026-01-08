@@ -28,10 +28,12 @@ Researcher and software engineer at **Argonne National Laboratory** specializing
 ![Python](https://img.shields.io/badge/Python-171717?style=flat&logo=python&logoColor=3776AB)
 ![C++](https://img.shields.io/badge/C++-171717?style=flat&logo=cplusplus&logoColor=00599C)
 ![PyTorch](https://img.shields.io/badge/PyTorch-171717?style=flat&logo=pytorch&logoColor=EE4C2C)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-171717?style=flat&logo=tensorflow&logoColor=FF6F00)
 ![ROS2](https://img.shields.io/badge/ROS2-171717?style=flat&logo=ros&logoColor=22314E)
+![OpenCV](https://img.shields.io/badge/OpenCV-171717?style=flat&logo=opencv&logoColor=5C3EE8)
+![Pandas](https://img.shields.io/badge/Pandas-171717?style=flat&logo=pandas&logoColor=150458)
+![CARLA](https://img.shields.io/badge/CARLA-171717?style=flat&logo=unrealengine&logoColor=white)
+![Jetson](https://img.shields.io/badge/Jetson-171717?style=flat&logo=nvidia&logoColor=76B900)
 ![Docker](https://img.shields.io/badge/Docker-171717?style=flat&logo=docker&logoColor=2496ED)
-![CUDA](https://img.shields.io/badge/CUDA-171717?style=flat&logo=nvidia&logoColor=76B900)
 ![Linux](https://img.shields.io/badge/Linux-171717?style=flat&logo=linux&logoColor=FCC624)
 
 </div>
